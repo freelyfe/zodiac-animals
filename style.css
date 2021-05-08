@@ -1,0 +1,74 @@
+
+
+body{
+    /*gets ride of browser default margins*/
+    margin: auto 0;
+    background-color: black;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 3em;
+    padding: 25px;
+    width: 100%; 
+    margin: auto;
+}
+
+
+h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    font-size: 2rem; 
+    color: white;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+
+.top{
+    background-color: crimson;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    /* Make a grid container with 4 columns */
+    grid-template-columns: auto auto auto auto;
+}
+
+.font{
+    font-size: 4rem;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    color: white;   
+}
+
+
+.zone {
+    cursor:pointer;
+    /*display:inline-block;*/
+    text-align: center;
+    /* emojis are characters, so font-size is used */
+    font-size:10em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+    background-color: crimson;
+}
+
+.zone:hover{
+    background-color: darkred;
+}
